@@ -13,6 +13,7 @@
 		2770F2AE2041A98B00D2F201 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2AA2041A98B00D2F201 /* SelectionSort.cpp */; };
 		2770F2B22041AD7600D2F201 /* InsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B02041AD7600D2F201 /* InsertSort.cpp */; };
 		2770F2B52041CDE100D2F201 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B32041CDE100D2F201 /* QuickSort.cpp */; };
+		2770F2B820426A7600D2F201 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B620426A7600D2F201 /* HeapSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		2770F2B12041AD7600D2F201 /* InsertSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = InsertSort.hpp; path = SRC/Sort/InsertSort.hpp; sourceTree = SOURCE_ROOT; };
 		2770F2B32041CDE100D2F201 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QuickSort.cpp; path = SRC/Sort/QuickSort.cpp; sourceTree = SOURCE_ROOT; };
 		2770F2B42041CDE100D2F201 /* QuickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = QuickSort.hpp; path = SRC/Sort/QuickSort.hpp; sourceTree = SOURCE_ROOT; };
+		2770F2B620426A7600D2F201 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = SRC/Sort/HeapSort.cpp; sourceTree = SOURCE_ROOT; };
+		2770F2B720426A7600D2F201 /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = HeapSort.hpp; path = SRC/Sort/HeapSort.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				2770F2B12041AD7600D2F201 /* InsertSort.hpp */,
 				2770F2B32041CDE100D2F201 /* QuickSort.cpp */,
 				2770F2B42041CDE100D2F201 /* QuickSort.hpp */,
+				2770F2B620426A7600D2F201 /* HeapSort.cpp */,
+				2770F2B720426A7600D2F201 /* HeapSort.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2770F2B820426A7600D2F201 /* HeapSort.cpp in Sources */,
 				2770F2AE2041A98B00D2F201 /* SelectionSort.cpp in Sources */,
 				2770F2B52041CDE100D2F201 /* QuickSort.cpp in Sources */,
 				2770F2A82041A96C00D2F201 /* ElementType.cpp in Sources */,

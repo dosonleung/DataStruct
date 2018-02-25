@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "QuickSort.hpp"
+#include "HeapSort.hpp"
 
 int main(int argc, const char * argv[]) {
     int e[] = {3,1,2,8,9,4,5,7,6,0};
@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         std::cout << E[i].key << " ";
     }
     std::cout << std::endl;
-    QuickSort(E, 10, false);
+    HeapSort(E, 10, true);
     std::cout << "After QuickSort" << std::endl;
     for (int i = 0; i < 10; i++) {
         std::cout << E[i].key << " ";
