@@ -8,9 +8,9 @@
 
 #include "QuickSort.hpp"
 
-static int length = 0;
+static int qslength = 0;
 
-void sort(ElemType E[], int left, int right, bool isAscending){
+void qsort(ElemType E[], int left, int right, bool isAscending){
     if (left >= right) {
         return;
     }
@@ -47,12 +47,12 @@ void sort(ElemType E[], int left, int right, bool isAscending){
             left ++;
         }
     }
-    printElements(E, length);
-    sort(E, start, left-1, isAscending);
-    sort(E, right+1, end, isAscending);
+    printElements(E, qslength);
+    qsort(E, start, left-1, isAscending);
+    qsort(E, right+1, end, isAscending);
 }
 
 void QuickSort(ElemType E[], int len, bool isAscending){
-    length = len;
-    sort(E, 0, len-1, isAscending);
+    qslength = len;
+    qsort(E, 0, len-1, isAscending);
 }
