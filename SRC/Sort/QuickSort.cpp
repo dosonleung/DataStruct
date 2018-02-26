@@ -17,7 +17,7 @@ void qsort(ElemType E[], int left, int right, bool isAscending){
     int start = left;
     int end = right;
     while(left < right){
-        std::cout << "left:" << left << " " << "right:" << right << std::endl;
+        //std::cout << "left:" << left << " " << "right:" << right << std::endl;
         while(left < right){//find the element large/less than the one on the left
             if (isAscending) {
                 if (E[right].key < E[left].key) {
@@ -47,7 +47,7 @@ void qsort(ElemType E[], int left, int right, bool isAscending){
             left ++;
         }
     }
-    printElements(E, qslength);
+    //printElements(E, qslength);
     qsort(E, start, left-1, isAscending);
     qsort(E, right+1, end, isAscending);
 }

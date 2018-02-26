@@ -15,6 +15,7 @@
 		2770F2B52041CDE100D2F201 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B32041CDE100D2F201 /* QuickSort.cpp */; };
 		2770F2B820426A7600D2F201 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B620426A7600D2F201 /* HeapSort.cpp */; };
 		2770F2BB2042A6D900D2F201 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2B92042A6D900D2F201 /* MergeSort.cpp */; };
+		2770F2BE2043E74E00D2F201 /* BucketSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2770F2BC2043E74E00D2F201 /* BucketSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		2770F2B720426A7600D2F201 /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = HeapSort.hpp; path = SRC/Sort/HeapSort.hpp; sourceTree = SOURCE_ROOT; };
 		2770F2B92042A6D900D2F201 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MergeSort.cpp; path = SRC/Sort/MergeSort.cpp; sourceTree = SOURCE_ROOT; };
 		2770F2BA2042A6D900D2F201 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MergeSort.hpp; path = SRC/Sort/MergeSort.hpp; sourceTree = SOURCE_ROOT; };
+		2770F2BC2043E74E00D2F201 /* BucketSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BucketSort.cpp; path = SRC/Sort/BucketSort.cpp; sourceTree = SOURCE_ROOT; };
+		2770F2BD2043E74E00D2F201 /* BucketSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BucketSort.hpp; path = SRC/Sort/BucketSort.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				2770F2B720426A7600D2F201 /* HeapSort.hpp */,
 				2770F2B92042A6D900D2F201 /* MergeSort.cpp */,
 				2770F2BA2042A6D900D2F201 /* MergeSort.hpp */,
+				2770F2BC2043E74E00D2F201 /* BucketSort.cpp */,
+				2770F2BD2043E74E00D2F201 /* BucketSort.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				2770F2B820426A7600D2F201 /* HeapSort.cpp in Sources */,
 				2770F2AE2041A98B00D2F201 /* SelectionSort.cpp in Sources */,
 				2770F2B52041CDE100D2F201 /* QuickSort.cpp in Sources */,
+				2770F2BE2043E74E00D2F201 /* BucketSort.cpp in Sources */,
 				2770F2A82041A96C00D2F201 /* ElementType.cpp in Sources */,
 				2770F272204163B500D2F201 /* main.cpp in Sources */,
 				2770F2AD2041A98B00D2F201 /* BubblingSort.cpp in Sources */,
